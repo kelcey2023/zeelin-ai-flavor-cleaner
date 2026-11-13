@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+references/lexicon/candidates-*.jsonl.gz
+candidates*.csv
+dist/
+*.log
+.env
+.env.*
+

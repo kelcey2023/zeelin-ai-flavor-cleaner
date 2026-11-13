@@ -1,0 +1,1381 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "purpose": "组合覆盖候选，不是10万独立规则或全网摘录",
+  "subjects": [
+    "对话助手",
+    "搜索助手",
+    "编程助手",
+    "写作助手",
+    "翻译工具",
+    "语音助手",
+    "会议助手",
+    "客服系统",
+    "推荐系统",
+    "检索系统",
+    "问答系统",
+    "文档处理系统",
+    "图像生成工具",
+    "视频生成工具",
+    "语音合成工具",
+    "语音识别工具",
+    "代码补全工具",
+    "代码审查工具",
+    "自动化测试工具",
+    "数据分析工具",
+    "知识库助手",
+    "邮件助手",
+    "日程助手",
+    "教学助手",
+    "学习助手",
+    "办公助手",
+    "设计工具",
+    "图片编辑工具",
+    "视频剪辑工具",
+    "字幕工具",
+    "内容审核系统",
+    "信息抽取系统",
+    "文本分类系统",
+    "情感分析工具",
+    "合同审阅工具",
+    "论文检索工具",
+    "文献管理工具",
+    "网页浏览助手",
+    "文件管理助手",
+    "表格助手",
+    "演示文稿工具",
+    "流程自动化系统",
+    "采购助手",
+    "库存管理系统",
+    "财务报表工具",
+    "项目管理助手",
+    "设备监测系统",
+    "质量检测系统",
+    "物流调度系统",
+    "招聘辅助系统"
+  ],
+  "aspects": [
+    "使用成本",
+    "响应速度",
+    "输出质量",
+    "操作流程",
+    "部署方式",
+    "数据来源",
+    "授权机制",
+    "错误处理",
+    "更新方式",
+    "使用门槛",
+    "适用范围",
+    "运行稳定性",
+    "交互方式",
+    "隐私设置",
+    "资源占用",
+    "评估方法",
+    "维护成本",
+    "服务限制",
+    "反馈机制",
+    "集成方式"
+  ],
+  "templates": [
+    {
+      "id": "ZT-001",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}正在开启一个全新的时代。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-002",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}的意义远比我们想象的更加深远。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-003",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}正在改写整个行业的未来。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-004",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}注定将在历史上留下浓墨重彩的一笔。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-005",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}正在带来前所未有的深刻变革。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-006",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}无疑是时代发展的必然选择。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-007",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}正站在历史性转折的关键节点。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-008",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}的重要性已经无需多言。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-009",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}成为了不可逆转的时代潮流。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-010",
+      "category": "importance",
+      "label": "空泛意义拔高",
+      "template": "{topic}为人类打开了全新的想象空间。",
+      "rewrite_guidance": "需要具体证据或删除意义判断",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-011",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}终于醒了过来。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-012",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}开始有了自己的呼吸。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-013",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}终于学会了开口说话。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-014",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}正在悄悄长出自己的翅膀。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-015",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}向整个行业发出了怒吼。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-016",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}正在等待属于自己的高光时刻。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-017",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}终于走出了自己的舒适区。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-018",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}开始重新审视自己的命运。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-019",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}对未来充满了无限渴望。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-020",
+      "category": "personification",
+      "label": "技术拟人",
+      "template": "{topic}正在拼命寻找自己的存在感。",
+      "rewrite_guidance": "写明主体和可观察动作",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-021",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是一把打开未来大门的钥匙。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-022",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是一场没有硝烟的战争。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-023",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是一场漫长的马拉松。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-024",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是悬在行业头顶的一把利剑。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-025",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是压垮旧秩序的最后一根稻草。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-026",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是照亮行业前路的一束光。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-027",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是技术变革浪潮中的一朵浪花。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-028",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是行业棋盘上的一枚关键棋子。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-029",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是连接现实与未来的一座桥梁。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-030",
+      "category": "metaphor",
+      "label": "比喻遮蔽关系",
+      "template": "{topic}是隐藏在表象之下的一座冰山。",
+      "rewrite_guidance": "检验比喻两端是否同类；还原实际关系",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-031",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}不是终点，而是全新的起点。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-032",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}不仅是一种变化，更是一场革命。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-033",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}的背后，是一套更深层的底层逻辑。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-034",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}的关键，不在表面，而在本质。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-035",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}看似简单，实则暗藏玄机。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-036",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}表面上是一件小事，实际上是一盘大棋。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-037",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}从来不是单一的问题，而是系统性的命题。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-038",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}既是挑战，也是机遇，更是时代的考题。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-039",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}不只是技术问题，更是文明问题。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-040",
+      "category": "framing",
+      "label": "强设对立和框架",
+      "template": "{topic}不是一个孤立现象，而是时代的缩影。",
+      "rewrite_guidance": "核实是否真有对立；用实际信息关系组织",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-041",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "要理解{topic}，我们不妨先把时间拨回去。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-042",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "谈到{topic}，我们需要先建立一个认知坐标。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-043",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "关于{topic}，真正值得追问的问题来了。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-044",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "看清{topic}，需要跳出固有的思维框架。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-045",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "拆解{topic}，不妨从三个维度展开。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-046",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "讨论{topic}，首先要把这笔账算清楚。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-047",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "读懂{topic}，只需要记住三个关键词。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-048",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "面对{topic}，让我们把镜头拉近一点。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-049",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "理解{topic}，不妨把它放在更大的坐标系里。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-050",
+      "category": "editorial",
+      "label": "作者指令残留",
+      "template": "分析{topic}，需要先拨开表象的迷雾。",
+      "rewrite_guidance": "删去组织文章的提示，让事实直接接续",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-051",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，故事才刚刚开始。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-052",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，时间终将给出答案。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-053",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，让我们拭目以待。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-054",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，我们依然需要持续关注。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-055",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，未来充满了无限可能。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-056",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，答案或许就在不远的未来。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-057",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，一切都还只是序幕。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-058",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，这值得我们每一个人深思。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-059",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，最终的答案只能留给时间。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-060",
+      "category": "ending",
+      "label": "万能结尾",
+      "template": "关于{topic}，我们唯一能确定的就是变化本身。",
+      "rewrite_guidance": "无新增信息时删除；不把观察清单当结尾",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-061",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "业内人士普遍认为，{topic}意义非凡。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-062",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "有专家一针见血地指出，{topic}至关重要。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-063",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "越来越多的人意识到，{topic}不可忽视。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-064",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "不少声音指出，{topic}大有可为。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-065",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "有研究充分证明，{topic}将改变一切。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-066",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "市场普遍相信，{topic}必将成为趋势。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-067",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "用户纷纷表示，{topic}令人惊喜。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-068",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "相关数据显示，{topic}正在蓬勃发展。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-069",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "权威机构一致认定，{topic}拥有巨大潜力。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-070",
+      "category": "attribution",
+      "label": "模糊归因",
+      "template": "行业已经形成共识，{topic}是大势所趋。",
+      "rewrite_guidance": "查具名来源与支持范围，不能制造共识",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-071",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}将彻底改变所有人的生活。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-072",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}将一劳永逸地解决全部问题。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-073",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}已经没有任何技术障碍。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-074",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}必然让每个人都从中受益。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-075",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}在所有场景下都能发挥最大价值。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-076",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}已经证明传统方法毫无意义。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-077",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}的成功不需要任何前提条件。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-078",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}将在短期内全面取代现有方案。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-079",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}为整个行业提供了唯一正确的答案。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-080",
+      "category": "hype",
+      "label": "绝对化承诺",
+      "template": "{topic}可以百分之百保证预期结果。",
+      "rewrite_guidance": "核实证据、范围、比较基线；保留必要条件",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-081",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}的实现被认为是具有重要意义的。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-082",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}为可能性的实现提供了可能。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-083",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}在某种意义上形成了意义上的延伸。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-084",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}的价值在于对价值的重新定义。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-085",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}被赋予了推动变革发生的使命。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-086",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}的推进构成了对进步本身的促进。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-087",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}为相关领域的发展提供了新的发展动能。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-088",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}在一个更加广泛的层面上产生了广泛影响。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-089",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}实现了从可能性到现实性的跨越式转变。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-090",
+      "category": "translation",
+      "label": "抽象名词和翻译腔",
+      "template": "{topic}以一种前所未有的方式成为可能。",
+      "rewrite_guidance": "寻找名词背后的实际动作，不机械替换所有被动句",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-091",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}让更多成为了可能。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-092",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}正在进一步实现更好。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-093",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}使得整体有了全面提升。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-094",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}让一切都变得不再一样。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-095",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}对未来产生了深远的作用。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-096",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}带来的不仅仅是带来的东西。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-097",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}是一个需要被重新思考的存在。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-098",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}为后续提供了有力的支撑和保障。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-099",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}使原本不可能的事情成为可能。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    },
+    {
+      "id": "ZT-100",
+      "category": "semantic-gap",
+      "label": "对象和关系空缺",
+      "template": "{topic}进一步推动了相关工作的相关进展。",
+      "rewrite_guidance": "补齐可确定的主体、对象、比较项；无法核实则不补写",
+      "review_status": "template_reviewed_variants_pending",
+      "evidence_type": "editorial_synthetic_template",
+      "source_ids": [
+        "EDITORIAL-20261112"
+      ],
+      "exceptions": "只用于候选检索，不可见词判错。引语、原称、讽刺、明确技术定义和有证据的论断需按语境核实。"
+    }
+  ]
+}

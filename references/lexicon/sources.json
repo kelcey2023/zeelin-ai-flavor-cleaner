@@ -1,0 +1,234 @@
+{
+  "accessed_at": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "scope": "多源定向检索，不声称覆盖全网；source_id用于规则依据关联，不表示候选句来自网页原文。",
+  "sources": [
+    {
+      "source_id": "SRC01",
+      "title": "现代汉语言语交际",
+      "url": "https://higher.smartedu.cn/course/69052ae95345b68214576d69",
+      "publisher": "国家高等教育智慧教育平台 / 南昌大学",
+      "date": "2026-10-15",
+      "date_type": "page_updated",
+      "kind": "chinese_language_teaching",
+      "read_scope": "公开课程说明、第九章语法失误与第十章标点说明；未观看登录视频",
+      "supports": [
+        "语病分类",
+        "提取句子主干",
+        "省略与指代须结合语境"
+      ],
+      "does_not_support": [
+        "中文AI专属禁词",
+        "单词触发即判错"
+      ]
+    },
+    {
+      "source_id": "SRC02",
+      "title": "GB/T 15834-2011 标点符号用法",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailedCNF?id=71F772D7FE25D3A7E05397BE0A0AB82A",
+      "publisher": "全国标准信息公共服务平台",
+      "date": "2011-12-30",
+      "date_type": "standard_published",
+      "kind": "standard_status",
+      "read_scope": "标准状态及基本信息；访问时现行",
+      "supports": [
+        "标准版本",
+        "现行状态",
+        "实施日期2012-06-01"
+      ],
+      "does_not_support": [
+        "凭状态页核验全部条款",
+        "用标点辨认AI"
+      ]
+    },
+    {
+      "source_id": "SRC03",
+      "title": "中华人民共和国国家标准GB/T15834-2011标点符号用法",
+      "url": "https://www.shsmu.edu.cn/yywz/info/1026/1526.htm",
+      "publisher": "上海交通大学医学院语言文字网（标准转载）",
+      "date": "2023-11-14",
+      "date_type": "republication",
+      "kind": "standard_text_republication",
+      "read_scope": "公开全文转录，重点为问号、冒号、省略号",
+      "supports": [
+        "标点按语气和句法关系使用",
+        "省略号与同义等字不叠用"
+      ],
+      "does_not_support": [
+        "全面禁用中文冒号或破折号",
+        "英文引号规则迁移为中文规则"
+      ]
+    },
+    {
+      "source_id": "SRC04",
+      "title": "GB/T 15835-2011 出版物上数字用法",
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7DA87D3A7E05397BE0A0AB82A",
+      "publisher": "全国标准信息公共服务平台",
+      "date": "2011-07-29",
+      "date_type": "standard_published",
+      "kind": "standard_status",
+      "read_scope": "标准状态和基本信息；2025-09-05复审继续有效",
+      "supports": [
+        "标准身份",
+        "现行状态"
+      ],
+      "does_not_support": [
+        "凭状态页确认全部数字规则",
+        "替代原数据核算"
+      ]
+    },
+    {
+      "source_id": "SRC05",
+      "title": "Why Does ChatGPT ‘Delve’ So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models",
+      "url": "https://aclanthology.org/2025.coling-main.426/",
+      "publisher": "COLING / ACL Anthology",
+      "authors": "Tom S. Juzek; Zina B. Ward",
+      "date": "2025-01",
+      "date_type": "conference_publication",
+      "kind": "primary_research",
+      "read_scope": "原论文条目及摘要",
+      "supports": [
+        "科学英语词汇过度出现的研究方法"
+      ],
+      "does_not_support": [
+        "中文禁词频率",
+        "凭单词判定单篇AI来源"
+      ]
+    },
+    {
+      "source_id": "SRC06",
+      "title": "Delving into LLM-assisted writing in biomedical publications through excess vocabulary",
+      "url": "https://arxiv.org/abs/2406.07016",
+      "publisher": "arXiv / Science Advances",
+      "authors": "Dmitry Kobak et al.",
+      "date": "2025-07-03",
+      "date_type": "arxiv_v5",
+      "kind": "primary_research",
+      "read_scope": "作者摘要、版本记录、期刊信息",
+      "supports": [
+        "特定英语生物医学摘要总体的风格词变化"
+      ],
+      "does_not_support": [
+        "单篇AI率",
+        "中文公众号禁词统计"
+      ]
+    },
+    {
+      "source_id": "SRC07",
+      "title": "Do LLMs write like humans? Variation in grammatical and rhetorical styles",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11874169/",
+      "publisher": "PNAS / PMC",
+      "authors": "Alex Reinhart et al.",
+      "date": "2025-02-18",
+      "date_type": "online_record",
+      "kind": "primary_research",
+      "read_scope": "摘要、方法、风格差异和讨论",
+      "supports": [
+        "特定英语语料中模型的词汇、语法与体裁差异",
+        "审稿不能只看词表"
+      ],
+      "does_not_support": [
+        "所有语言和模型通用判据",
+        "中文名词一律删除"
+      ]
+    },
+    {
+      "source_id": "SRC08",
+      "title": "blader/humanizer — SKILL.md",
+      "url": "https://github.com/blader/humanizer/blob/main/SKILL.md",
+      "publisher": "blader / GitHub",
+      "date": null,
+      "date_type": "undated_dynamic_page",
+      "observed_version": "4.0.0",
+      "kind": "open_source_editorial_practice",
+      "read_scope": "流程、主体规则、弱信号说明",
+      "supports": [
+        "结构与重复检查",
+        "改写后事实核对",
+        "弱信号不能单独判错"
+      ],
+      "does_not_support": [
+        "语言标准",
+        "新增体验和作者反应",
+        "英文排版规则直译"
+      ]
+    },
+    {
+      "source_id": "SRC09",
+      "title": "Wikipedia:Signs of AI writing",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+      "publisher": "English Wikipedia editing community",
+      "date": null,
+      "date_type": "undated_dynamic_page",
+      "kind": "community_editorial_observations",
+      "read_scope": "概览、注意事项、结构线索、历史指标目录",
+      "supports": [
+        "编辑观察",
+        "指标随时间变化",
+        "不能只依赖AI检测器"
+      ],
+      "does_not_support": [
+        "中文AI识别定论",
+        "Markdown或破折号单独定性"
+      ]
+    },
+    {
+      "source_id": "SRC10",
+      "alias": "WEB-CLAUDE-CONTEXT",
+      "title": "Context windows",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "publisher": "Claude Platform Docs",
+      "date": null,
+      "date_type": "undated_dynamic_page",
+      "kind": "official_technical_documentation",
+      "read_scope": "上下文窗口定义、输入输出与工具结果计入方式",
+      "supports": [
+        "本产品文档中上下文窗口涉及请求及生成内容",
+        "用token说明容量"
+      ],
+      "does_not_support": [
+        "所有产品相同细节",
+        "上下文窗口等同永久记忆",
+        "容量等于准确理解能力"
+      ]
+    },
+    {
+      "source_id": "SRC11",
+      "title": "Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "publisher": "Anthropic",
+      "date": "2024-12-19",
+      "date_type": "published",
+      "kind": "official_technical_article",
+      "read_scope": "系统区别、成本延迟、提示链与流程示例；页面提示部分工具信息已变化",
+      "supports": [
+        "某些工作流含多次模型调用",
+        "步骤可能影响成本与等待时间"
+      ],
+      "does_not_support": [
+        "所有智能体固定调用次数",
+        "固定开销倍数",
+        "每次工具调用必定单独收费"
+      ]
+    }
+  ],
+  "local_sources": [
+    {
+      "source_id": "USER-20261112",
+      "kind": "user_preference",
+      "date": "2026-11-12",
+      "description": "匿名编辑反馈：容量比喻对应关系与消耗对象缺失两个问题例句。"
+    },
+    {
+      "source_id": "EDITORIAL-20261112",
+      "kind": "editorial_judgment_and_synthetic_examples",
+      "date": "2026-11-12",
+      "description": "本轮编写并复核的审校规则、句式种子和构造例句；不是网络原话或外部实证。"
+    },
+    {
+      "source_id": "legacy-user-preferences",
+      "kind": "existing_skill_rules",
+      "description": "Zeelin 科技公众号文风的既有编辑规则，公开版保留为可选风格配置；不表示通用中文禁令。"
+    }
+  ]
+}

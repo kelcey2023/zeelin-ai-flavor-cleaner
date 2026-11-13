@@ -1,0 +1,69 @@
+name: 报告正常句误判
+description: 检查器把正常中文、技术术语或引语标成问题时，请告诉我们。
+title: "[误判] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        正常反例和问题例句同样重要。请说明原句为什么可以成立。
+        high 表示必须复核，并不授权自动改写事实；medium 可能只是语境提醒。维护者会区分错误拦截和合理提示。
+  - type: textarea
+    id: original-context
+    attributes:
+      label: 被标记的原句和必要上下文
+      placeholder: "原句：模型第一层的参数已经冻结。这里的“第一层”指网络结构。"
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: 看到了什么提示？
+      description: 尽量提供规则编号、等级、提示文字；找不到编号可只复制提示。
+      placeholder: "规则编号 / high 或 medium / 提示文字"
+    validations:
+      required: true
+  - type: textarea
+    id: why-valid
+    attributes:
+      label: 为什么这句话应该保留？
+      description: 可说明语法关系、技术定义、引语出处，或被改变的事实。
+    validations:
+      required: true
+  - type: input
+    id: version-profile
+    attributes:
+      label: 版本和模式（可选）
+      placeholder: "例如：v0.1.0，general；不清楚可留空。"
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望怎样处理？（可选）
+      placeholder: "不提示 / 降为语境提醒 / 保留引语并提示核对来源"
+  - type: dropdown
+    id: source-kind
+    attributes:
+      label: 例句来自哪里？
+      options:
+        - 本人写作或本人改稿
+        - 本人获得的模型输出
+        - 公开文章或公开讨论
+        - 为说明问题自行构造的例句
+        - 其他来源或暂不确定
+    validations:
+      required: true
+  - type: textarea
+    id: source-details
+    attributes:
+      label: 来源补充（可选）
+      description: 公开原文请附链接和发布日期。模型输出可注明模型及日期。不方便公开时，请改写为不含私人信息的构造例句并注明。
+      placeholder: 不粘贴整篇文章，不提供账号密码、私人联系方式或未公开材料。
+  - type: checkboxes
+    id: contribution-rights
+    attributes:
+      label: 提交确认
+      description: "贡献规则见 [CONTRIBUTING.md](https://github.com/kelcey2023/zeelin-ai-flavor-cleaner/blob/main/CONTRIBUTING.md)，文字与规则许可见 [DATA_LICENSE.md](https://github.com/kelcey2023/zeelin-ai-flavor-cleaner/blob/main/DATA_LICENSE.md)。"
+      options:
+        - label: 我有权提交这些内容；自己的原创规则、解释与例句按 CC BY 4.0 贡献，外部引文保留来源和原有权利。
+          required: true
+        - label: 我已去除私人信息、未公开稿件和无权公开的内容；外部文章只提供必要短例与链接。
+          required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 中文贡献指南
+    url: https://github.com/kelcey2023/zeelin-ai-flavor-cleaner/blob/main/CONTRIBUTING.md
+    about: 不会改代码也可以参与：查看例句提交、误判反馈和审核流程。

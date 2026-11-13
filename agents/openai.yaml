@@ -1,0 +1,5 @@
+interface:
+  display_name: "Zeelin AI Flavor Cleaner"
+  short_description: "中文去AI味与语病审校：解释问题、保护事实、支持社区规则"
+  default_prompt: "使用 $zeelin-ai-flavor-cleaner 审校这篇中文稿，核对事实、语法与语境，减少空泛和机械表达，不新增事实。"
+

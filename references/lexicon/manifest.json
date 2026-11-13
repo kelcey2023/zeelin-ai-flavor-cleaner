@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-12",
+  "reviewed_core_rules": 63,
+  "candidate_expressions": 100000,
+  "unique_candidate_expressions": 100000,
+  "candidate_templates": 100,
+  "subject_slots": 50,
+  "aspect_slots": 20,
+  "formula": "100 authored templates × 50 tool/system names × 20 attributes",
+  "candidate_categories": {
+    "importance": 10000,
+    "personification": 10000,
+    "metaphor": 10000,
+    "framing": 10000,
+    "editorial": 10000,
+    "ending": 10000,
+    "attribution": 10000,
+    "hype": 10000,
+    "translation": 10000,
+    "semantic-gap": 10000
+  },
+  "candidate_review_status": "pending",
+  "candidate_default_scanning": false,
+  "candidate_artifact_optional": true,
+  "network_harvested_candidate_count": 0,
+  "individual_candidate_semantic_review_count": 0,
+  "notes": [
+    "The candidate count denotes unique generated expressions, not independently verified bans.",
+    "Built-in editorial rules and core bank entries are counted separately.",
+    "Source research supports methods and boundaries, not statistical proof of these synthetic expressions.",
+    "Same-family variants are not independent evidence; no AI probability is estimated."
+  ],
+  "files": {
+    "candidates-100000.jsonl.gz": {
+      "sha256": "f2da3afe9a7cbb45fa3abd34d5c58d158c85d331f9899cbe3d104d9167b43434",
+      "bytes": 1329638
+    },
+    "core-rules.jsonl": {
+      "sha256": "a89f99bab13d5200359adef80ab224ab4491779ad39cd10205e1b35e35d42b7a",
+      "bytes": 55898
+    },
+    "expansion-seeds.json": {
+      "sha256": "bac39b0e6bb249fa6bce11694d2a136b26f26f0eed0dff1584164446bdba7a7b",
+      "bytes": 60384
+    },
+    "sources.json": {
+      "sha256": "bbb41207af89cecc861ae607587a63d01054adca5f3a2405a448c8887c6ce11c",
+      "bytes": 8628
+    }
+  }
+}
