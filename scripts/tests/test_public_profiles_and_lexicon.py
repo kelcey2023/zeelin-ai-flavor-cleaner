@@ -58,6 +58,31 @@ class PublicProfileTests(unittest.TestCase):
 
 
 class PublicLexiconTests(unittest.TestCase):
+    def test_lf_crlf_and_bom_checkouts_have_same_text_checksums(self):
+        with tempfile.TemporaryDirectory() as folder:
+            bank = Path(folder)
+            for name in ('core-rules.jsonl', 'expansion-seeds.json', 'sources.json', 'manifest.json'):
+                raw = lexicon.canonical_file_bytes(lexicon.BANK / name)
+                (bank / name).write_bytes(b'\xef\xbb\xbf' + raw.replace(b'\n', b'\r\n'))
+            for name in ('core-rules.jsonl', 'expansion-seeds.json', 'sources.json'):
+                self.assertEqual(lexicon.file_metadata(lexicon.BANK / name), lexicon.file_metadata(bank / name))
+            with mock.patch.object(lexicon, 'BANK', bank), mock.patch.object(lexicon, 'MANIFEST', bank / 'manifest.json'):
+                self.assertEqual('valid', lexicon.validate()['result'])
+                records = list(lexicon.rows('core'))
+                records[0]['reason'] += ' 新增正文修改。'
+                (bank / 'core-rules.jsonl').write_text('\n'.join(json.dumps(r, ensure_ascii=False) for r in records) + '\n', encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'Checksum changed: core-rules.jsonl'):
+                    lexicon.validate()
+
+    def test_binary_checksum_does_not_normalize_newlines_or_bom(self):
+        with tempfile.TemporaryDirectory() as folder:
+            first, second = Path(folder) / 'a.gz', Path(folder) / 'b.gz'
+            first.write_bytes(b'\xef\xbb\xbfabc\r\ndef')
+            second.write_bytes(b'abc\ndef')
+            self.assertNotEqual(lexicon.digest(first), lexicon.digest(second))
+            self.assertEqual('raw-bytes', lexicon.file_metadata(first)['hash_mode'])
+            self.assertEqual(first.stat().st_size, lexicon.file_metadata(first)['bytes'])
+
     def test_reviewed_examples_and_sources_validate(self):
         rows = lexicon.validate_core()
         self.assertTrue(rows)

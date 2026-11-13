@@ -1,6 +1,7 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "date": "2026-11-12",
+  "checksum_policy": "JSON/JSONL: UTF-8 without BOM, CRLF/CR normalized to LF; other files including gzip: raw bytes. bytes counts the same canonical bytes used by sha256.",
   "reviewed_core_rules": 63,
   "candidate_expressions": 100000,
   "unique_candidate_expressions": 100000,
@@ -34,19 +35,23 @@
   "files": {
     "candidates-100000.jsonl.gz": {
       "sha256": "f2da3afe9a7cbb45fa3abd34d5c58d158c85d331f9899cbe3d104d9167b43434",
-      "bytes": 1329638
+      "bytes": 1329638,
+      "hash_mode": "raw-bytes"
     },
     "core-rules.jsonl": {
-      "sha256": "a89f99bab13d5200359adef80ab224ab4491779ad39cd10205e1b35e35d42b7a",
-      "bytes": 55898
+      "sha256": "e53d76866bdcee301ddbdb66de90589914d335d8a7bac663178a7dc2225c4db2",
+      "bytes": 55835,
+      "hash_mode": "utf8-lf-no-bom"
     },
     "expansion-seeds.json": {
       "sha256": "bac39b0e6bb249fa6bce11694d2a136b26f26f0eed0dff1584164446bdba7a7b",
-      "bytes": 60384
+      "bytes": 60384,
+      "hash_mode": "utf8-lf-no-bom"
     },
     "sources.json": {
-      "sha256": "bbb41207af89cecc861ae607587a63d01054adca5f3a2405a448c8887c6ce11c",
-      "bytes": 8628
+      "sha256": "54d2c38b20b8d94defd1dde5f2644d7aea1b9370319ddfaba9c247ff71223746",
+      "bytes": 8394,
+      "hash_mode": "utf8-lf-no-bom"
     }
   }
 }

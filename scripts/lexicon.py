@@ -31,12 +31,27 @@ def rows(kind):
             if line.strip():
                 yield json.loads(line)
 
+def canonical_file_bytes(path):
+    """Make Git's text newline conversion irrelevant without ignoring content edits."""
+    path = Path(path)
+    data = path.read_bytes()
+    if path.suffix.lower() in {'.json', '.jsonl'}:
+        text = data.decode('utf-8-sig').replace('\r\n', '\n').replace('\r', '\n')
+        return text.encode('utf-8')
+    return data
+
+
 def digest(path):
-    h = hashlib.sha256()
-    with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(1024 * 1024), b""):
-            h.update(chunk)
-    return h.hexdigest()
+    return hashlib.sha256(canonical_file_bytes(path)).hexdigest()
+
+
+def file_metadata(path):
+    data = canonical_file_bytes(path)
+    return {
+        'sha256': hashlib.sha256(data).hexdigest(),
+        'bytes': len(data),
+        'hash_mode': 'utf8-lf-no-bom' if Path(path).suffix.lower() in {'.json', '.jsonl'} else 'raw-bytes',
+    }
 
 def source_ids():
     registry = json_read(BANK / 'sources.json')
@@ -169,7 +184,8 @@ def build(csv_path=None):
     if records != expected:
         raise ValueError('Incomplete candidate generation')
     manifest = {
-        "schema_version": 2, "date": seeds['date'],
+        "schema_version": 3, "date": seeds['date'],
+        "checksum_policy": "JSON/JSONL: UTF-8 without BOM, CRLF/CR normalized to LF; other files including gzip: raw bytes. bytes counts the same canonical bytes used by sha256.",
         "reviewed_core_rules": len(core),
         "candidate_expressions": records,
         "unique_candidate_expressions": len(seen),
@@ -189,7 +205,7 @@ def build(csv_path=None):
             "Source research supports methods and boundaries, not statistical proof of these synthetic expressions.",
             "Same-family variants are not independent evidence; no AI probability is estimated."
         ],
-        "files": {p.name: {"sha256": digest(p), "bytes": p.stat().st_size} for p in [CANDIDATES, BANK / "core-rules.jsonl", BANK / "expansion-seeds.json", BANK / "sources.json"]}
+        "files": {p.name: file_metadata(p) for p in [CANDIDATES, BANK / "core-rules.jsonl", BANK / "expansion-seeds.json", BANK / "sources.json"]}
     }
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return manifest
@@ -206,7 +222,8 @@ def validate(with_candidates=False):
             continue
         if not (BANK / name).is_file():
             raise ValueError(f'Missing {name}; run lexicon.py build')
-        if digest(BANK / name) != metadata["sha256"]:
+        actual = file_metadata(BANK / name)
+        if actual != metadata:
             raise ValueError(f"Checksum changed: {name}; review and rebuild the manifest")
     if not with_candidates:
         return {'result': 'valid', 'core_rules': len(core), 'candidate_expressions_expected': expected, 'candidates_checked': False}
